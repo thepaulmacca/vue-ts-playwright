@@ -11,6 +11,7 @@ The test is _very_ basic, but I wanted to start small and add more later on. Plu
 ## Run Application
 
 `npm install`
+
 `npm start`
 
 ## Run Playwright Tests
@@ -19,4 +20,4 @@ The test is _very_ basic, but I wanted to start small and add more later on. Plu
 
 ## GitHub Actions
 
-A workflow has been added so that tests run on each push and pull request into the main branch.
+A [workflow](.github/workflows/playwright.yml) has been added so that tests run on each push and pull request into the main branch.
